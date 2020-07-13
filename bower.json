@@ -1,14 +1,23 @@
 {
   "name": "Bootstrap4-All",
-  "authors": ["akash <aku.das02@gmail.com>"],
+  "authors": [
+    "akash <aku.das02@gmail.com>"
+  ],
   "description": "learn bootstrap 4",
   "main": "",
   "license": "MIT",
   "homepage": "",
-  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
-    "popper.js": "^2.4.4"
+    "popper.js": "^2.4.4",
+    "font-awesome": "^5.13.1"
   }
 }
