@@ -20,8 +20,8 @@
 </head>
 
 <body>
-    <div class="container py-3">
-        <div class="jumbotron">
+    <div class="container py-5">
+        <div class="jumbotron py-4">
             <div class="row d-flex align-items-center">
 
                 <!-- Title Card -->
@@ -38,7 +38,11 @@
                 <div class="col-md-5 offset-md-1 py-3">
                     <div class="card">
                         <div class="card-body">
+
+                            <!-- Form -->
                             <form>
+
+                                <!-- NAME -->
                                 <div class="form-group">
                                     <label for="name" class="ml-5">What is your name?</label>
                                     <div class="d-flex">
@@ -49,6 +53,7 @@
                                     </div>
                                 </div>
 
+                                <!-- EMAIL -->
                                 <div class="form-group">
                                     <label for="email" class="ml-5">What is your email address?</label>
                                     <div class="d-flex">
@@ -58,8 +63,11 @@
                                         <input type="email" class="form-control" placeholder="Enter your email"
                                             id="email">
                                     </div>
+                                    <small id="emailHelp" class="form-text text-muted ml-5">We'll never share your email
+                                        with anyone else.</small>
                                 </div>
 
+                                <!-- PASSWORD -->
                                 <div class="form-group">
                                     <label for="password" class="ml-5">What is your password?</label>
                                     <div class="d-flex">
@@ -71,14 +79,21 @@
                                     </div>
                                 </div>
 
-                                <div class="d-flex justify-content-center">
+                                <!-- CheckBox -->
+                                <div class="form-group form-check  ml-5">
+                                    <input type="checkbox" class="form-check-input" id="formCheck">
+                                    <label class="form-check-label" for="formCheck">Check me out</label>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="ml-5">
                                     <button type="submit" class="btn btn-dark btn-lg mt-3">Please Join</button>
                                 </div>
+
                             </form>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
